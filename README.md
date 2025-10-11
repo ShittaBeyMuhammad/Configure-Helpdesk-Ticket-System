@@ -14,7 +14,7 @@ To create a fully functional osTicket helpdesk system, I followed these steps on
 1. Installed XAMPP:
 Downloaded XAMPP 8.2.12 from apachefriends.org
 
-
+![alt text](<download xamp.png>)
 Ran the installer as Administrator and installed to C:\xampp, selecting Apache, MySQL, PHP, and phpMyAdmin.
 This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
 Tested the setup by accessing http://localhost:8080 (I ensured to use port 8080 to avoid port 80 conflicts).
