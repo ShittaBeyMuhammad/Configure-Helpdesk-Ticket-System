@@ -17,23 +17,32 @@ Downloaded XAMPP 8.2.12 from apachefriends.org
 
 
 I ran the installer as Administrator and installed to C:\xampp, selecting Apache, MySQL, PHP, and phpMyAdmin.
+![alt text](Images/download%20and%20install%20xamp.png)
 This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
+![alt text](Images/start%20services.png)
 Tested the setup by accessing http://localhost:8080 (I ensured to use port 8080 to avoid port 80 conflicts).
 
 2. Set Up osTicket Files:
 Downloaded osTicket v1.18 from osticket.com/download.
+![alt text](Images/download%20os%20ticket.png)
 Extracted the upload folder contents to C:\xampp\htdocs\osticket, ensuring files like index.php and include were directly in the osticket folder.
+![alt text](Images/copyfilestowebserver.png)
 Copied C:\xampp\htdocs\osticket\include\ost-sampleconfig.php to ost-config.php and set the neccessary permissions:
 
 3. Created MySQL Database and User:
 Accessed phpMyAdmin at http://localhost:8080/phpmyadmin.
+![alt text](Images/phpmyadmin.png)
 Created a database named osticket_db
-Added a user, configured the username and granted all privileges on the osticket_db to the newly created user
 
+Added a user, configured the username and granted all privileges on the osticket_db to the newly created user
+![alt text](Images/add%20users.png)
+![alt text](Images/create%20user.png)
 
 4.Ran osTicket Installer:
 Navigated to http://localhost:8080/osticket.
 Filled in the installer form; which contains information needed to set-up the ticketing system. I also ensured the settings has no conflicts with the database created earlier in phpmyadmin
+![alt text](Images/osticket%20succesful%20installation.png)
+![alt text](Images/support%20center.png)
 
 5. Secured the Installation:
 For best security practices, I deleted the C:\xampp\htdocs\osticket\setup folder and set ost-config.php to read-only.
