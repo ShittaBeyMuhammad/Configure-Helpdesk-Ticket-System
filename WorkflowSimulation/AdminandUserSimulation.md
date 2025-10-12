@@ -4,4 +4,4 @@ This outlines the workflow simulation in the osTicket helpdesk system, showcasin
 
 The following screeshots displays the interaction between the user and the admin:
 ![alt text](Images/ticketdashboard.png)
-![alt text](Images/)
+![alt text](Images/excel%20files.png)
