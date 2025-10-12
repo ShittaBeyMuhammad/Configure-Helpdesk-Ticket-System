@@ -33,4 +33,8 @@ The dashboard showed service time (time from ticket creation to resolution) and 
 Time Range for Activities:
 The dashboard allowed selecting a time range (for example daily, weekly, monthly) for all ticket activities
 
+Screenshots of Insights from the Dashboard
+![alt text](Images/dashboardtopics.png)
+![alt text](Images/ticketdashboard.png)
+
 In conclusion, The dashboard is were everything happens and it gave me better and proper insights on how the workflow of the ticketing system
