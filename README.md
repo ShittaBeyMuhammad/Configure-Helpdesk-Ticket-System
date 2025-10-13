@@ -71,6 +71,11 @@ How I resolved it: I moved osTicket files from C:\xampp\htdocs\upload to C:\xamp
 Solution: Copied ost-sampleconfig.php to ost-config.php and set write permissions:
 Copy-Item -Path C:\xampp\htdocs\osticket\include\ost-sampleconfig.php -Destination C:\xampp\htdocs\osticket\include\ost-config.php
 
+I had troubles pushing my work from my local machine to my github account due to the particular git account not being authenticated on my current vscode
+
+Solution: I switched from HTTPS to SSH authentication then I generated a new SSH key from my terminal, which was added to the SSH agent, and linked the public key to my GitHub account. After updating my repo’s remote URL to use the SSH format, I tested the connection, and once it authenticated successfully, I was finally able to push my updates without any login or access errors.
+
+
 
 Lessons Learned
 -Technical Skills: I have gained hands-on experience with server setup (XAMPP, Apache, MySQL), database configuration, and osTicket administration, which is similar to tasks in IT support roles.
