@@ -11,14 +11,15 @@ Tools set-up for
 
 Setup Steps
 To create a fully functional osTicket helpdesk system, I followed these steps on a Windows machine:
-1. Installed XAMPP:
+1.Installed XAMPP:
 Downloaded XAMPP 8.2.12 from apachefriends.org
 ![alt text](Images/download%20xamp.png)
 
 
 I ran the installer as Administrator and installed to C:\xampp, selecting Apache, MySQL, PHP, and phpMyAdmin.
 ![alt text](Images/download%20and%20install%20xamp.png)
-This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
+
+-This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
 ![alt text](Images/start%20services.png)
 Tested the setup by accessing http://localhost:8080 (I ensured to use port 8080 to avoid port 80 conflicts).
 
@@ -72,7 +73,9 @@ Copy-Item -Path C:\xampp\htdocs\osticket\include\ost-sampleconfig.php -Destinati
 
 
 Lessons Learned
-Technical Skills: I have gained hands-on experience with server setup (XAMPP, Apache, MySQL), database configuration, and osTicket administration, which is similar to tasks in IT support roles.
-Troubleshooting: Learned to diagnose and resolve server issues (e.g port conflicts, CSRF errors), critical for helpdesk environments.
-Documentation: I have developed a clear, professional documentation to showcase problem-solving for potential employers.
+-Technical Skills: I have gained hands-on experience with server setup (XAMPP, Apache, MySQL), database configuration, and osTicket administration, which is similar to tasks in IT support roles.
+
+-Troubleshooting: Learned to diagnose and resolve server issues (e.g port conflicts) which is key for helpdesk environments.
+
+-Documentation: I have developed a clear, professional documentation to showcase problem-solving for potential employers.
 
