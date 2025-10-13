@@ -19,7 +19,7 @@ Downloaded XAMPP 8.2.12 from apachefriends.org
 I ran the installer as Administrator and installed to C:\xampp, selecting Apache, MySQL, PHP, and phpMyAdmin.
 ![alt text](Images/download%20and%20install%20xamp.png)
 
--This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
+This was followed up by starting Apache and MySQL in XAMPP Control Panel, confirming both services turned green which signifies running
 ![alt text](Images/start%20services.png)
 Tested the setup by accessing http://localhost:8080 (I ensured to use port 8080 to avoid port 80 conflicts).
 
@@ -31,7 +31,7 @@ Extracted the upload folder contents to C:\xampp\htdocs\osticket, ensuring files
 Copied C:\xampp\htdocs\osticket\include\ost-sampleconfig.php to ost-config.php and set the neccessary permissions:
 
 3. Created MySQL Database and User:
-Accessed phpMyAdmin at http://localhost:8080/phpmyadmin.
+Accessed phpMyAdmin at http://localhost/phpmyadmin.
 ![alt text](Images/phpmyadmin.png)
 Created a database named osticket_db
 
