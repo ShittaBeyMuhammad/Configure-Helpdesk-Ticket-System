@@ -2,10 +2,10 @@ Helpdesk Ticket System with osTicket
 
 Objective: The goal of this project was to simulate real-world IT support workflows by building a helpdesk ticketing system using osTicket. By setting up a local server, configuring the osTicket platform, and managing realistic user tickets, I demonstrated key IT support skills such as system administration, database management, and user issue resolution. This project simulates tasks performed in helpdesk roles, showcasing my ability to troubleshoot technical issues and document processes for a professional portfolio.
 
-Tools set-up for
-**osTicket:** Open-source helpdesk ticketing system (v1.18).
-**XAMPP:** Local server environment (version 8.2.12, with Apache, MySQL/MariaDB PHP 8.2.12).
-**MySQL:** Database management through phpMyAdmin
+Tools set-up for<br>
+**osTicket:** Open-source helpdesk ticketing system (v1.18).<br>
+**XAMPP:** Local server environment (version 8.2.12, with Apache, MySQL/MariaDB PHP 8.2.12).<br>
+**MySQL:** Database management through phpMyAdmin<br>
 **Git:** Version control for project documentation
 
 
@@ -76,7 +76,7 @@ Solution: I switched from HTTPS to SSH authentication then I generated a new SSH
 
 
 
-Lessons Learned
+Lessons Learned<br>
 -Technical Skills: I have gained hands-on experience with server setup (XAMPP, Apache, MySQL), database configuration, and osTicket administration, which is similar to tasks in IT support roles.
 
 -Troubleshooting: Learned to diagnose and resolve server issues (e.g port conflicts) which is key for helpdesk environments.
