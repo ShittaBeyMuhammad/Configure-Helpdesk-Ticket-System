@@ -1,3 +1,4 @@
+**Admin Configuration**<br>
 
 This outlines the configuration of the osTicket admin panel used in setting-up and managing the helpdesk ticketing system. The configurations ensure efficient ticket workflows, user management, and system operations, simulating real-world IT support tasks
 
@@ -18,7 +19,7 @@ Basic Operations: Set company name and default email.
 
 3. Ticket and Settings and Options  
 Options: Enabled auto-assignment to agents and set default priority to Normal.
-Number Format: Configured ticket numbers with prefix TICKET (e.g TICKET-123).
+Number Format: Configured ticket numbers with prefix TICKET.
 
 4. Task Settings and Options
 Task Creation: Enabled tasks for tickets 
