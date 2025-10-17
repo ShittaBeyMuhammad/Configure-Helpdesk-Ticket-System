@@ -1,15 +1,15 @@
-Helpdesk Ticket System with osTicket
+**Helpdesk Ticket System with osTicket**
 
-Objective: The goal of this project was to simulate real-world IT support workflows by building a helpdesk ticketing system using osTicket. By setting up a local server, configuring the osTicket platform, and managing realistic user tickets, I demonstrated key IT support skills such as system administration, database management, and user issue resolution. This project simulates tasks performed in helpdesk roles, showcasing my ability to troubleshoot technical issues and document processes for a professional portfolio.
+**Objective**: The goal of this project was to simulate real-world IT support workflows by building a helpdesk ticketing system using osTicket. By setting up a local server, configuring the osTicket platform, and managing realistic user tickets, I demonstrated key IT support skills such as system administration, database management, and user issue resolution. This project simulates tasks performed in helpdesk roles, showcasing my ability to troubleshoot technical issues and document processes for a professional portfolio.
 
-Tools set-up for<br>
+**Tools set-up**<br>
 **osTicket:** Open-source helpdesk ticketing system (v1.18).<br>
 **XAMPP:** Local server environment (version 8.2.12, with Apache, MySQL/MariaDB PHP 8.2.12).<br>
 **MySQL:** Database management through phpMyAdmin<br>
 **Git:** Version control for project documentation
 
 
-Setup Steps
+**Setup Steps**
 To create a fully functional osTicket helpdesk system, I followed these steps on a Windows machine:
 1.Installed XAMPP:
 Downloaded XAMPP 8.2.12 from apachefriends.org
@@ -52,7 +52,7 @@ Simulated IT Support Tasks
 To mimic real-world IT support scenarios, I created and managed tickets reflecting real-world user submissions, using the osTicket user portal’s Help Topics which includes the Feedback, General Inquiry, Report a Problem, and Access Denied. These scenarios align with common issues in Nigeria’s tech industry.
 
 
-Challenges Faced  
+**Challenges Faced**  
 I encountered several issues, which I resolved to ensure a functional ticket system:
 
 [Persistent MySQL errors] (“MySQL shutdown unexpectedly”) and buffering on localhost
@@ -76,7 +76,7 @@ Solution: I switched from HTTPS to SSH authentication then I generated a new SSH
 
 
 
-Lessons Learned<br>
+**Lessons Learned**<br>
 -Technical Skills: I have gained hands-on experience with server setup (XAMPP, Apache, MySQL), database configuration, and osTicket administration, which is similar to tasks in IT support roles.
 
 -Troubleshooting: Learned to diagnose and resolve server issues (e.g port conflicts) which is key for helpdesk environments.
